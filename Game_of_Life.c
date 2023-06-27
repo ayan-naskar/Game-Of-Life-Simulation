@@ -104,7 +104,7 @@ void fillspaceship(wor *p){
 int main(){
 	int n=20;
 	wor* p=initialize(n);
-	fillRandomPoints(p);
+	//fillRandomPoints(p);
 	fillspaceship(p);
 
 	show(p);
